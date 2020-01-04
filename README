@@ -1,0 +1,19 @@
+To Compile:
+mvn clean install
+
+Push to webapps of tomcat
+
+Start tomcat
+
+Check by ping:
+http://localhost:8080/wordgameapi/vovo/api/ping
+
+To access all words:
+http://localhost:8080/wordgameapi/vovo/api
+
+To access for a single word:
+http://localhost:8080/wordgameapi/vovo/api/{word}
+
+e.g., for word "zeal", the url is:
+http://localhost:8080/wordgameapi/vovo/api/zeal
+
